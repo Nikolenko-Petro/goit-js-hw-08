@@ -1,2 +1,0 @@
-const e=document.querySelector(".gallery"),t=[];galleryItems.forEach((e=>{const a=document.createElement("a");a.className="gallery__link",a.href=e.original;const l=document.createElement("img");l.className="gallery__image",l.src=e.preview,l.setAttribute("title",e.description),l.alt=e.description,a.append(l),t.push(a)})),e.append(...t),new SimpleLightbox(".gallery a",{captionDelay:250});
-//# sourceMappingURL=01-gallery.616c9fa6.js.map
